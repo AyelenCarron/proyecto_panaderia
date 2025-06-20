@@ -11,10 +11,10 @@ selectOrigen.addEventListener("change",function(){
 })
 
 contactForm.addEventListener('submit', (event) => {
-        event.preventDefault();
+    event.preventDefault();
 
-        alert('Mensaje enviado');
+    alert('Mensaje enviado');
 
-        
-        contactForm.reset();
-    });
+    
+    contactForm.reset();
+});
