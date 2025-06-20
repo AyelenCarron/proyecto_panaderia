@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <header>
+        <h1> Pastelería Chiaraviglio </h1>
+
+        <nav>
+
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="nosotros.html">Nosotros</a></li>
+                <li> <a href="clientes.html">Clientes</a></li>
+                <li> <a href="contactos.html">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main class="main-contactos">
+
+        <h2>Contacto</h2>
+        <p>¿Querés hacer un pedido, o solicitar un presupuesto? No dudes en contactarnos</p>
+        <h3>Envíanos un Mensaje</h3>
+
+        <section class="formulario">
+            <form id="contactForm">
+                <div class="grupo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="grupo">
+                    <label for="telefono">Teléfono (opcional):</label>
+                    <input type="tel" id="telefono" name="telefono">
+
+                </div>
+
+                <div class="grupo">
+                    <label for="selectOrigen">¿Cómo te enteraste de nosotros?</label>
+                    <select id="selectOrigen">
+                        <option value="">Selecciona</option>
+                        <option value="redes">Redes</option>
+                        <option value="comentarios">Comentarios</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                </div>
+
+                <div class="grupo escondido" id="bloqueOtro">
+                    <label for="otro">Especifique:</label>
+                    <textarea id="otro" name="especifique"></textarea>
+                </div>
+
+                <div class="grupo">
+                    <label for="mensaje">Tu Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="pagos">
+
+            <h1>Medios de pagos:</h1>
+            <h4> Transferencia</h4>
+            <h4> Efectivo</h4>
+
+        </div>
+        <div>
+            <p><strong>Instagram:</strong><a
+                    href="https://www.instagram.com/pasteleria_chiaraviglio/">@pasteleria_chiaraviglio</a></p>
+        </div>
+        <div class="container2">
+            <p>&copy; 2025 Pastelería Chiaraviglio. Todos los derechos reservados. </p>
+        </div>
+
+    </footer>
+    <script src="javascript/script.js" defer></script>
+</body>
+
+</html>
