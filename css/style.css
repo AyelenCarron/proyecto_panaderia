@@ -1,0 +1,154 @@
+@import url(https://coolors.co/8edce6-d5dcf9-a7b0ca-725e54-443627);
+
+
+*{ box-sizing: border-box;
+    margin: 0;
+    bottom: 0;
+    
+}
+
+header {
+    background-color: #14213d ;
+    padding: 1rem;
+    text-align: center;
+    
+}
+header h1{
+    color: #fca311;
+    font-size: 2.9em;
+}
+header a{
+    text-decoration: none;
+    color: #fca311;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav ul li a:hover {
+    color: #fca311;;
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    
+    
+}
+
+
+main {
+    flex-grow: 1; 
+    padding: 3px 2px;
+    text-align: center;   
+    background-color: #EADDA9;
+    
+    
+}
+
+h2 {
+    color: #14213d;
+    margin-bottom: 3px;
+    font-size: 2.8em;
+}
+
+p{
+    font-size: 1.8em;
+    color: #000000;
+}
+.main-image {
+    max-width: 100%; 
+    height: auto;    
+}
+footer {
+    background-color: #14213d ;
+    padding: 1%;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+footer h1{
+    color: #fca311;
+    font-size: 1.2rem
+    
+}
+ h4{
+    color: #fca311;;
+    font-size: 1.2rem;
+ }
+ footer p{
+    color: #fca311;;
+    font-size: 0.9rem;
+ }
+--------------------------------------------------------------
+
+.rating {
+    font-size: 20px;
+    color: #F05D0E; /* Aspectos a mejorar en una siguiente version */
+    margin-bottom: 10px;
+    
+}
+.clientes{    
+    text-align: left;   
+    background-color: #EADDA9;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
+    
+}
+
+li h3{
+    color: #fca311;;
+    font-size: 1.7rem;
+    
+
+}
+
+.section-content{
+    flex-grow: 1; 
+    padding: 3px 2px;
+    text-align-last: left;   
+    background-color: #EADDA9;
+}
+-------------------------
+ 
+
+
+.grupo{
+    display: block;
+    margin-bottom: 15px;
+    
+}
+label, input, select, button{
+    margin: 10px 5px ;
+}
+
+.escondido{
+    display: none;
+}
+
+button {  
+    
+    padding: 10px 10px;
+    border-color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+   
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
